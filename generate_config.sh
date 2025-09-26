@@ -30,10 +30,6 @@
 #
 #       * BGP Configuration:
 #           - COMMON_VR uses fixed BGP ASN 64515 (peer with TVI-ODD IP).
-#           - BGP ID gets dynamically calculated : tvLRTI.Id==global-vrf-id
-#             #2034   #set ($BGP_ID = 3000 + $MAX_WAN_RTI + ${tvLRTI.Id})
-#             #2035   bgp ${BGP_ID} {
-#             -> Implemented as: BGP=$((3000 + 12 + $2))
 #
 # ------------------------------------------------------------------------
 PROVIDER_TENANT="Provider-Tenant"
