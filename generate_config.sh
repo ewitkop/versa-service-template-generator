@@ -1,6 +1,6 @@
 #!/bin/bash
 # ------------------------------------------------------------------------
-# Author: A. Rengaramalingam
+# Author: A. Rengaramalingam and Erik Witkop
 # Script: Service Template Config Generator
 # Purpose:
 #   Automates the generation of Versa Director device template configs
